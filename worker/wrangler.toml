@@ -1,0 +1,10 @@
+name = "googl-ai-stock-api"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# เปลี่ยนค่าเป็น URL GitHub Pages จริงของคุณก่อน deploy
+SITE_ORIGIN = "https://YOUR-USERNAME.github.io"
+# ต้องเป็นชื่อโครงการ + อีเมลจริงตาม SEC Fair Access Policy
+SEC_USER_AGENT = "GOOGLResearchDashboard your-real-email@your-domain.org"
+OPENAI_MODEL = "gpt-4.1-mini"
